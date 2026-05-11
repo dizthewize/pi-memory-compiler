@@ -1,0 +1,28 @@
+{
+  "name": "pi-memory",
+  "version": "0.1.0",
+  "description": "Pi-native unified memory system with global wiki + per-project overlays",
+  "type": "module",
+  "scripts": {
+    "init-db": "tsx db/init-db.ts",
+    "flush": "tsx scripts/flush.ts",
+    "compile": "tsx scripts/compile.ts",
+    "lint": "tsx scripts/lint.ts",
+    "query": "tsx scripts/query.ts",
+    "sync": "tsx scripts/sync.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "better-sqlite3": "^12.1.0",
+    "sqlite-vec": "^0.1.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.17",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}
