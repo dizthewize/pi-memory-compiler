@@ -13,7 +13,7 @@
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/dizthewize/pi-memory.git ~/.pi-memory
+git clone https://github.com/dizthewize/pi-memory-compiler.git ~/.pi-memory
 cd ~/.pi-memory
 npm install
 ```

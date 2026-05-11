@@ -96,7 +96,7 @@ Pi: [surfaces the pinned memory about auth middleware]
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/dizthewize/pi-memory.git ~/.pi-memory
+git clone https://github.com/dizthewize/pi-memory-compiler.git ~/.pi-memory
 cd ~/.pi-memory
 npm install
 ```
